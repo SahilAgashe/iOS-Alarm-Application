@@ -1,4 +1,33 @@
+
 # iOS-Alarm-Application
+
+Snooze Working in Alarm Application  ===> 
+
+1] Alarms Without Snooze , That is Snooze is turn off.
+==> 
+If alarm is set for a particular time , 
+then at that particular time , alarm will ring for once , with pop-up notification.
+If we click on pop-up notification, "Stop" option will shown.
+If we click on stop button inside the pop-up notification , alarm will stop ring.
+
+2] Alarms with Snooze , That is Snooze is turn on.
+==>
+If alarm is set for a particular time , 
+then at that particular time , alarm will ring.
+Now , 
+if we click on pop-up notification , two options shown , "Snooze" and "Stop"
+case1: if we click on stop button inside the notification , alarm will stop ring.
+
+case2: if we click on snooze button inside the notification,means user is active and have seen this alarm , 
+so it will ring for one time after 5 seconds(we can also set for 5 min).
+after 5 sec, it will show notification, if we click on notification , two option shows again "snooze" and "stop"
+if click on stop, then case1 happens.
+if click on snooze then case 2 again happens.
+if we do not click on any, alarms will stop ringing.It has done its work.
+
+case3: if we do not click on any of two , it will start ring for every 1 minute(can chage to 10 min) interval , as user is set to snooze , and he is still sleeping.
+
+
 
 # Screenshots of iOS Application ==>
 
