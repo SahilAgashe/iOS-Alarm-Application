@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         let image = UIImage(named: "addButton.png")
         let button = UIButton()
         button.setBackgroundImage(image, for: UIControl.State.normal)
-        button.addTarget(self, action:#selector(addButtonAction), for: .touchUpInside)
+        button.addTarget(ViewController.self, action:#selector(addButtonAction), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()

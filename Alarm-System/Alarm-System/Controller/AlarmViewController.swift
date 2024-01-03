@@ -82,7 +82,7 @@ class AlarmViewController: UIViewController {
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 22)
         button.layer.cornerRadius = 10.0
         button.backgroundColor = .black
-        button.addTarget(self, action: #selector(scheduleNotificationButtonAction), for: .touchUpInside)
+        button.addTarget(AlarmViewController.self, action: #selector(scheduleNotificationButtonAction), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
